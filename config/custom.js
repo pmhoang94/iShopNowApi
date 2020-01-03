@@ -19,5 +19,8 @@ module.exports.custom = {
   // mailgunSecret: 'key-testkeyb183848139913858e8abd9a3',
   // stripeSecret: 'sk_test_Zzd814nldl91104qor5911gjald',
   // …
-
+  firebase: {
+    url: 'https://f1-telebuy.firebaseio.com',
+    credential: require('../secret/firebase-key.json')
+  },
 };

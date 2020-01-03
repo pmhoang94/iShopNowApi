@@ -19,16 +19,8 @@ module.exports.routes = {
    ***************************************************************************/
 
   //auth
-  'POST /api/auth/register': {
-    action: 'auth/register'
-  },
-  'POST /api/auth/login': {
-    action: 'auth/login'
-  },
-
-  //user
-  'GET /api/user/me': {
-    action: 'user/me'
+  'GET /api/ishop/user/get-all': {
+    action: 'user/getAll'
   }
 
   /***************************************************************************
