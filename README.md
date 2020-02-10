@@ -28,7 +28,7 @@ export PATH=$PATH:$HOME/dotnet
 dotnet run
 ```
 
-### Step migrate ###
+### Steps migrate ###
 
 After running project, Api doccument at link:
 
@@ -38,7 +38,24 @@ http://localhost:5055/swagger/index.html
 
 * Step 1: Config Zendesk
 ```
-Call apis:
+Insert or update config Zendesk (domain, token...)
 PUT /api​/angia​/ZendeskSetting
 POST /api​/angia​/ZendeskSetting
+```
+
+```
+Generate group and organization
+POST /api/angia/Group/AutoGeneration
+```
+
+* Step 2: Migrate user
+
+```
+POST /api/angia/Migration/MigrationUser
+```
+
+* Step 3: Migrate tiket
+
+```
+POST /api/angia/Migration/MigrationTicket
 ```
