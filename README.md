@@ -6,7 +6,7 @@
 
 Windows 
 ```
-*PowerShell*
+**PowerShell**
 dotnet-install.ps1 -Channel 3.1 -Runtime aspnetcore
 ```
 macOS 
